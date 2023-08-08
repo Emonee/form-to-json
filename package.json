@@ -1,0 +1,38 @@
+{
+  "name": "form-to-json",
+  "version": "0.1.0",
+  "description": "A npm package for transform form data in a json like object",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emonee/form-to-json.git"
+  },
+  "keywords": [
+    "form",
+    "FormData",
+    "JSON"
+  ],
+  "author": "Emiliano Acevedo Felip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emonee/form-to-json/issues"
+  },
+  "homepage": "https://github.com/Emonee/form-to-json#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.46.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.1.6"
+  }
+}
