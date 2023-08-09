@@ -1,5 +1,5 @@
 {
-  "name": "form-data-json",
+  "name": "@emonee/form-json",
   "version": "0.1.0",
   "description": "A npm package for transform form data in a json like object",
   "main": "dist/index.js",
